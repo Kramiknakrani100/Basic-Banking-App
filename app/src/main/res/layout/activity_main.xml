@@ -18,13 +18,14 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <ImageView
-            android:layout_width="200dp"
             android:id="@+id/bankimg"
-            android:paddingTop="20dp"
-            android:layout_centerHorizontal="true"
+            android:layout_width="200dp"
             android:layout_height="200dp"
-            android:src="@drawable/bank"/>
+            android:layout_centerHorizontal="true"
+            android:paddingTop="20dp"
+            android:src="@drawable/bank" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -33,7 +34,7 @@
             android:layout_centerHorizontal="true"
             android:fontFamily="monospace"
             android:gravity="center_horizontal"
-            android:text="Banking App\n Developed By Rohan Patel"
+            android:text="Banking App\n Developed By Kramik Nakrani"
             android:textAlignment="center"
             android:textColor="#5972FF"
 
